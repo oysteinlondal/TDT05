@@ -31,4 +31,5 @@ trainer = ModelTrainer(tagger, corpus)
 trainer.fine_tune('resources/taggers/sota-ner-flert',
                   learning_rate=5.0e-6,
                   mini_batch_size=4,
+                  num_workers=12,
                 )
