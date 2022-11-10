@@ -6,6 +6,9 @@ __pycache__/
 # External repo
 LAVIS
 
+# Environment files
+.env
+
 # C extensions
 *.so
 
