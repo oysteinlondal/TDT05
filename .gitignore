@@ -3,6 +3,9 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# External repo
+LAVIS
+
 # C extensions
 *.so
 
